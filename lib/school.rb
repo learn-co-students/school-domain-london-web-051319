@@ -30,7 +30,7 @@ class School
     def sort
       @roster.each do |grade, student_names|
         @roster[grade] = student_names.sort
-        binding.pry
+        #binding.pry
       end
     end
 end
