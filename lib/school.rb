@@ -1,6 +1,5 @@
 # code here!
 require 'pry'
-# code here!
 class School
   attr_accessor :roster, :student_name, :grade
   attr_reader :name
@@ -34,3 +33,4 @@ class School
       end
     end
 end
+
